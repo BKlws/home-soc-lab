@@ -142,7 +142,7 @@ Each scenario follows a structured approach:
 1. **DNS Anomaly Burst**
 
    ```
-   for i in {1..50}; do nslookup random$i.xyz [DNS_SERVER_IP] > /dev/null; done
+   for i in {1..50}; do nslookup random$i.test DNS_SERVER_IP > /dev/null; done
    ```
 
 2. **External Reconnaissance (Port Scan)**
@@ -166,10 +166,9 @@ Each scenario follows a structured approach:
 5. **Multi-stage Attack**
 
    ```
-   nmap -p 80,443 10.0.0.1
+   nmap -p 80,443 TARGET_HOST
    curl http://example.com
-   for i in {1..20}; do nslookup random$i.xyz 10.0.0.50 > /dev/null; done
-   ```
+   for i in {1..20}; do nslookup random$i.test DNS_SERVER_IP > /dev/null; done   ```
 
 ---
 
