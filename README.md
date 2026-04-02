@@ -267,6 +267,5 @@ sample-data/        → Sanitized IOC data
 
 **Version:** v1.0 (Frozen)
 **State:** Complete and validated
-**Next step:** GitHub publication and portfolio use
 
 ---
