@@ -1,0 +1,6 @@
+IP,source
+1.2.3.4,abuseipdb
+5.6.7.8,otx
+9.9.9.9,spamhaus
+90.130.70.73,speedtest
+8.8.8.8,extratest
