@@ -84,6 +84,11 @@ The lab contains five operational dashboards:
 * Network Traffic Analysis
 <img width="1617" height="998" alt="Network Traffic Analysis " src="https://github.com/user-attachments/assets/92c77757-a4be-45de-8f1d-e385ca0d0ec5" />
 
+
+Alerting evidence:
+
+### Screenshots
+
 * Alertmanager
 <img width="1229" height="550" alt="Screenshot from 2026-04-02 13-33-11" src="https://github.com/user-attachments/assets/5958f709-9e38-4f87-9e6b-e60bf9f58bba" />
 
@@ -137,19 +142,19 @@ Each scenario follows a structured approach:
 1. **DNS Anomaly Burst**
 
    ```
-   for i in {1..50}; do nslookup random$i.xyz 10.0.0.50 > /dev/null; done
+   for i in {1..50}; do nslookup random$i.xyz [DNS_SERVER_IP] > /dev/null; done
    ```
 
 2. **External Reconnaissance (Port Scan)**
 
    ```
-   nmap -p 1-1000 10.0.0.1
+   nmap -p 1-1000 [TARGET_HOST]
    ```
 
 3. **Bandwidth Spike**
 
    ```
-   wget http://speedtest.tele2.net/100MB.zip
+   wget http://example.com/testfile.zip
    ```
 
 4. **Threat Intelligence Match**
@@ -158,13 +163,7 @@ Each scenario follows a structured approach:
    curl http://<IOC_IP>
    ```
 
-5. **Beaconing / Repeated Connections**
-
-   ```
-   for i in {1..100}; do curl http://1.1.1.1 > /dev/null; done
-   ```
-
-6. **Multi-stage Attack**
+5. **Multi-stage Attack**
 
    ```
    nmap -p 80,443 10.0.0.1
