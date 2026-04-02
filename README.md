@@ -73,22 +73,22 @@ The lab contains five operational dashboards:
 
 
 * DNS Analysis
-  `![DNS Analysis](screenshots/dns.png)`
+<img width="1522" height="997" alt="SOC - DNS Analysis " src="https://github.com/user-attachments/assets/2e65c676-8b29-4c80-b3a3-158c58fbf6bb" />
 
 * Flow Analysis
-  `![Flow Analysis](screenshots/flow.png)`
+<img width="1522" height="997" alt="soc - Flow Analysis" src="https://github.com/user-attachments/assets/e0fae768-40d3-42c8-b9ea-98aa729148ee" />
 
 * Health Monitor
-  `![Health Monitor](screenshots/health.png)`
+<img width="1522" height="997" alt="soc - Health Monitor " src="https://github.com/user-attachments/assets/648ff53c-8275-44ee-80a9-af8d35ba652e" />
 
 * Network Traffic Analysis
-  `![Network Traffic](screenshots/network.png)`
+<img width="1617" height="998" alt="Network Traffic Analysis " src="https://github.com/user-attachments/assets/92c77757-a4be-45de-8f1d-e385ca0d0ec5" />
 
 * Alertmanager
-  `![Alertmanager](screenshots/alertmanager.png)`
+<img width="1229" height="550" alt="Screenshot from 2026-04-02 13-33-11" src="https://github.com/user-attachments/assets/5958f709-9e38-4f87-9e6b-e60bf9f58bba" />
 
 * Email Alert
-  `![Email Alert](screenshots/email-alert.png)`
+<img width="1756" height="953" alt="mail alert " src="https://github.com/user-attachments/assets/870332a7-cd20-4b03-8ff3-a09c5cce159d" />
 
 ---
 
