@@ -84,8 +84,9 @@ The lab contains five operational dashboards:
 * Network Traffic Analysis
 <img width="1617" height="998" alt="Network Traffic Analysis " src="https://github.com/user-attachments/assets/92c77757-a4be-45de-8f1d-e385ca0d0ec5" />
 
+---
 
-Alerting evidence:
+### Alerting evidence:
 
 ### Screenshots
 
