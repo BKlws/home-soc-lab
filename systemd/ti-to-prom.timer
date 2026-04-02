@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Threat Intel Prometheus exporter every 5 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=ti-to-prom.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target

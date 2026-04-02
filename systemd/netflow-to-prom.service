@@ -1,0 +1,13 @@
+[Unit]
+Description=Update NetFlow Prometheus textfile metrics
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/nfdump_to_prom.sh
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Update DNS Prometheus textfile metrics
+After=network-online.target dnsmasq.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/dns_to_prom.py
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
